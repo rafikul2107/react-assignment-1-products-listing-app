@@ -1,6 +1,15 @@
 import React from 'react';
-
 import Products from './components/Products';
+// const rafik =[
+//   {
+//     name:"raaa",
+//     ph:"0000000"
+//   },
+//   {
+//     name:"raaa",
+//     ph:"0000000"
+//   },
+// ]
 
 const products = [
   {
@@ -84,10 +93,10 @@ const products = [
 ];
 
 const App = () => {
+// console.log(products)
   return (
     <div>
-      <h1 className="title">BD Store</h1>
-      <Products products={products} />
+      <Products myproducts={products}/>
     </div>
   );
 };
