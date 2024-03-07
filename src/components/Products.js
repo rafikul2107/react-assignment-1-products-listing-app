@@ -2,7 +2,9 @@
 import React from 'react';
 import Product from '../components/Product'
 
- function Products() {
+ function Products({products}) {
+console.log(products)
+
   return (
     <div>
         <Product/>
